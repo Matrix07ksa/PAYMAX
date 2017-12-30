@@ -16,9 +16,6 @@ GR = '\033[37m'  # gray
 def clear():
     if system() == 'Linux':
         matrix.system("clear")
-    if system() == 'Windows':
-        matrix.system('cls')
-        matrix.system('color a')
     else:
         pass
 
