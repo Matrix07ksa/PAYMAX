@@ -1,4 +1,4 @@
-# paymax
+# PAYMAX
 meterpreter 
 
 
